@@ -1,0 +1,313 @@
+/* Encriptador - 1 Desktop */
+
+
+.body {
+  font-family: 'Montserrat', sans-serif;
+   background-image: url(../imagenes/logo3.gif); 
+  /* background: linear-gradient(#2B1D5A, #8371B9); */
+
+  background-repeat: no-repeat;
+  background-size:cover;
+
+
+}
+
+header {
+  background: linear-gradient(#2B1D5A, #8371B9);
+  width: auto;
+  height: 180px;
+  
+}
+.logo_space{
+  padding: 0px;
+  gap: 40px;
+  position: relative;
+  width: 940px;
+  height: 180px;
+ 
+  
+}
+
+
+
+
+img {
+  margin: 0;
+  position: relative;
+  width: 280px;
+  height: 80px;
+}
+
+main {
+
+  width: 940px;
+  margin: 18 auto;
+  
+
+}
+
+.caja1 {
+  /* position: relative;
+  top: 15%;
+  left: 5%; */
+  width: 940px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.frame1 {
+  /* Rectangle 1 */
+  display: inline-block;
+  position: relative;
+  width: 420px;
+  height: 550px;
+  left: 50px;
+  top: 20px;
+  /* White */
+  /* background: url(../imagenes/logo3.gif); */
+  background: linear-grkadient(#2B1D5A, #8371B9);
+  /*background-size: cover;*/
+  /* shadow */
+  box-shadow: 0px 24px 32px -8px #FFFFFF;
+  border-radius: 32px;
+
+}
+
+
+
+.textarea {
+  /* Ingrese el texto aqui */
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  height: 380px;
+  left: 25px;
+  top: 8px;
+  background: linear-gradient(#2B1D5A, #8371B9);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  /* Dark blue/dark-blue-300 */
+  color: #FFFFFF;
+  border-radius: 10px;
+
+}
+
+.lbl1 {
+
+  text-align: center;
+  color: #D8CFF6;
+  font-weight: bold;
+  font-size: 20px;
+  top: 130px;
+
+}
+
+.botones {
+  /* Auto layout */
+
+  display: flex;
+  position: relative;
+  text-align: center;
+  padding: 24px;
+  width:420px;
+  height: 150px;
+  left: 2px;
+  top: 2px;
+
+}
+
+.buttonencriptar {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 67px;
+  margin: 20px;
+  text-align: center;
+  /* Dark blue/dark-blue-300 */
+  background: #A296CA;
+  border-radius: 24px;
+  font-style: bold;
+  font-style: #ffff;
+  transition: 1s all;
+  /*realiza el cambio de background o all de todas las propiedades cuando se posiciona el mouse*/
+  cursor: pointer;
+}
+
+
+.buttonencriptar:hover {
+
+  background: #D8CFF6;
+  /** transform: scale(1.2) rotate(70deg);*/
+  transform: scale(1.2);
+
+}
+
+
+.frame2 {
+  /* Rectangle 1 */
+  display: inline-block;
+  position: relative;
+  width: 420px;
+  height: 550px;
+  left: 60px;
+  top:-70px;
+  /* White */
+  /* background: url(../imagenes/logo3.gif); */
+  background: linear-grkadient(#2B1D5A, #8371B9);
+
+  /* shadow */
+  box-shadow: 0px 24px 32px -8px #FFFFFF;
+  border-radius: 32px;
+
+}
+
+.textarea2 {
+  /* Ingrese el texto aqui */
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  width: 350px;
+  height: 380px;
+  left: 25px;
+  top: 50px;
+  background: linear-gradient(#2B1D5A, #8371B9);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  /* Dark blue/dark-blue-300 */
+  color: #FFFFFF;
+  border-radius: 10px;
+
+}
+
+.botones2 {
+  /* Auto layout */
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  width: 420px;
+  height: 67px;
+  left: 15px;
+  top: 50px;
+}
+
+.buttoncopy {
+  /* Button */
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  padding: 20px 60px;
+  font-size: 18px;
+  width: 200px;
+  height: 67px;
+  margin: 20px;
+  text-align: center;
+  line-height: 20px;
+  background: #A296CA;
+  border-radius: 24px;
+  font-style: bold;
+  font-weight: 400px;
+  font-style: #ffff;
+  transition: 1s all;
+  /*realiza el cambio de background o all de todas las propiedades cuando se posiciona el mouse*/
+  cursor: pointer;
+
+
+
+}
+
+
+.buttoncopy:hover {
+
+  background: #D8CFF6;
+  /** transform: scale(1.2) rotate(70deg);*/
+  transform: scale(1.2);
+
+}
+
+ul,
+li {
+  display: inline;
+  padding: 10px;
+}
+
+
+
+li :hover {
+  background: #b333ee;
+  /** transform: scale(1.2) rotate(70deg);*/
+  transform: scale(1.2);
+}
+
+.fa-github,
+.fa-instagram,
+.fa-linkedin {
+  color: white;
+  size: 20px;
+
+}
+
+.footerPrincipal {
+  display: block;
+  position: relative;
+  top: 180px;
+  text-align: center;
+  background: linear-gradient(#2B1D5A, #8371B9);
+  padding: 40px;
+  width: 100%;
+
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px;
+}
+
+
+@media screen and (max-width:480px) {
+
+  
+  h1 {
+    text-align: center;
+}
+
+  main {
+    width: auto;
+  }
+
+  .frame1,
+  .frame2{
+      width: 100%;
+      left: auto;
+      top: 10px;
+  }
+
+  .headerPrincipal,
+  .divPrincipal,
+  .caja1,
+  .footerPrincipal,
+  .logo_space {
+      width: auto;
+  }
+
+
+
+
+
+
+
+}
